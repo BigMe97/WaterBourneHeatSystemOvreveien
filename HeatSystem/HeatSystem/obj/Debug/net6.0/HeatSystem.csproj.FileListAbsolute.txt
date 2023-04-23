@@ -1,0 +1,15 @@
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\bin\Debug\net6.0\HeatSystem.exe
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\bin\Debug\net6.0\HeatSystem.deps.json
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\bin\Debug\net6.0\HeatSystem.runtimeconfig.json
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\bin\Debug\net6.0\HeatSystem.dll
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\bin\Debug\net6.0\HeatSystem.pdb
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.csproj.AssemblyReference.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.AssemblyInfoInputs.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.AssemblyInfo.cs
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.csproj.CoreCompileInputs.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.dll
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\refint\HeatSystem.dll
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.pdb
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\HeatSystem.genruntimeconfig.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\HeatSystem\HeatSystem\obj\Debug\net6.0\ref\HeatSystem.dll
