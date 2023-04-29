@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace HeatSystem
 {
-    internal class DataAccess
+    internal class Database
     {
+        public Database()
+        {
 
-        public DataAccess() { }
-
-
-
+        }
     }
 }
