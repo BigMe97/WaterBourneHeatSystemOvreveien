@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,22 +10,22 @@ namespace HeatSystem
     internal class XMLConfig
     {
         private int i = 0;
+        private IDictionary<string, double> MixerConfig = new Dictionary<string, double>();
 
         public XMLConfig() 
         {
-
+            MixerConfig.Add("Setpoint", 30);
+            MixerConfig.Add("Kp", 0.1);
+            MixerConfig.Add("Ti", 1000);
+            MixerConfig.Add("Td", 1);
+            MixerConfig.Add("MaxSumError", 50);
         }
 
 
-        //public XMLConfig(FacadeData facade) 
-        //{ 
-        //    this.Data = facade;
-        //}
-
-        public string GetMixerConfig()
+        
+        public IDictionary<string, double> GetMixerConfig()
         {
-            i++;
-            return "Mixer configuration data " + i;
+            return MixerConfig;
         }
     }
 }

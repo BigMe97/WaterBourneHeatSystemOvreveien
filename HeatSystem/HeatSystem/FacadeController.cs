@@ -9,9 +9,10 @@ namespace HeatSystem
     static class FacadeController
     {
 
-        public static PumpController PumpControl = new PumpController();
+        private static PumpController PumpControl = new PumpController();
         private static MixingValveController MixValveControl = new MixingValveController();
-        public static WaterLoopController LoopControl = new WaterLoopController();
+        private static WaterLoopController LoopControl = new WaterLoopController();
+        private static ErrorHandler Error = new ErrorHandler();
 
         public static void Run()
         {
@@ -38,11 +39,33 @@ namespace HeatSystem
         }
 
 
-        public static string GetMixerConfig()
+        public static IDictionary<string, double> GetMixerConfig()
         {
             return FacadeData.GetMixerConfig();
         }
 
+        public static bool IsPumpRunning()
+        {
+            return PumpControl.IsRunning();
+        }
 
+        public static void StoreMixerValues(IDictionary<string, double> dict)
+        {
+            FacadeData.StoreMixerValues(dict);
+        }
+
+        public static string GetMixerPosition()
+        {
+            return MixValveControl.GetPosition();
+        }
+        public static string GetOutflowTemperature()
+        {
+            return MixValveControl.GetOutflowTemp();
+        }
+
+        public static void RiseError(string ErrorMessage)
+        {
+            Error.RiseError(ErrorMessage);
+        }
     }
 }

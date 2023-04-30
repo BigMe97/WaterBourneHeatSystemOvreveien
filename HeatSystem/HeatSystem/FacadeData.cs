@@ -8,23 +8,20 @@ namespace HeatSystem
 {
     static class FacadeData
     {
-        //private UserInterface UI;
-        //private FacadeController Controller;
         private static XMLConfig Xml = new XMLConfig();
-        public static Database DB = new Database();
+        private static Database DB = new Database();
 
 
-        //public static void SetFacades(UserInterface ui, FacadeController controller)
-        //{
-        //    this.UI= ui;
-        //    this.Controller= controller;
-        //}
 
 
-        public static string GetMixerConfig()
+        public static IDictionary<string, double> GetMixerConfig()
         {
             return Xml.GetMixerConfig();
         }
 
+        public static void StoreMixerValues(IDictionary<string, double> dict)
+        {
+            DB.StoreMixerValues(dict);
+        }
     }
 }

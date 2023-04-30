@@ -1,0 +1,8 @@
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\bin\Debug\Serial2XML.exe.config
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\bin\Debug\Serial2XML.exe
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\bin\Debug\Serial2XML.pdb
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\obj\Debug\Serial2XML.csproj.AssemblyReference.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\obj\Debug\Serial2XML.csproj.SuggestedBindingRedirects.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\obj\Debug\Serial2XML.csproj.CoreCompileInputs.cache
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\obj\Debug\Serial2XML.exe
+D:\HeatSystemRepository\WaterBourneHeatSystem\Serial2XML\Serial2XML\obj\Debug\Serial2XML.pdb

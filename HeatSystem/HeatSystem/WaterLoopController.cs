@@ -8,6 +8,11 @@ namespace HeatSystem
 {
     class WaterLoopController
     {
+
+        private MyTimer timer;
+
+        private int samplingTime = 1000;
+
         public WaterLoopController()
         {
 
@@ -16,12 +21,13 @@ namespace HeatSystem
 
         public void Run()
         {
-
-
+            timer = new MyTimer(samplingTime);
+            int i = 0;
             while (UserInterface.run)
             {
-
-
+                i++;
+                UserInterface.Write(4, 0, $"Loop Controller Running... {i}");
+                timer.Wait();
             }
         }
     }
